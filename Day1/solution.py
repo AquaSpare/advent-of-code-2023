@@ -24,7 +24,7 @@ def main():
     }
     sum = 0
 
-    regex = '(?=(one|two|three|four|five|six|seven|eight|nine|[123456789]))'
+    regex = '(?=(one|two|three|four|five|six|seven|eight|nine|[1-9]))'
 
     with open('Day1/input.txt', 'r') as f:
         for line in f.readlines():
